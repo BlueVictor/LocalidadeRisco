@@ -52,4 +52,4 @@ pip install streamlit pandas plotly fpdf folium streamlit-folium networkx pyvis
 
 executar no terminal o comando: 
 
-streamlit run LocalidadeRisco.py
+python -m streamlit run LocalidadeRisco.py
