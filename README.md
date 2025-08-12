@@ -30,13 +30,21 @@ Aplicativo interativo desenvolvido em **Python + Streamlit** para análise de tr
 
 ## 🖼️ Demonstração
 
-> *(Adicione aqui um GIF ou captura de tela mostrando o funcionamento do app)*
+> <img width="2489" height="1325" alt="image" src="https://github.com/user-attachments/assets/44c888b6-cdf6-44c7-a413-a6dc00d11613" />
 
 ---
 
 ## 📦 Instalação
 
 ### 1️⃣ Clonar o repositório
-```bash
+
 git clone https://github.com/seu-usuario/relatorio-transacoes-suspeitas.git
 cd relatorio-transacoes-suspeitas
+
+### 2️⃣ Instalar as dependências
+
+executar no terminal o comando: pip install streamlit pandas plotly fpdf folium streamlit-folium networkx pyvis
+
+### 3️⃣ Rodando a aplicação
+
+executar no terminal o comando: streamlit run LocalidadeRisco.py
