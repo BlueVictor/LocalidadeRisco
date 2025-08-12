@@ -38,7 +38,7 @@ Aplicativo interativo desenvolvido em **Python + Streamlit** para análise de tr
 
 ### 1️⃣ Clonar o repositório
 
-git clone https://github.com/seu-usuario/relatorio-transacoes-suspeitas.git
+git clone https://github.com/seu-usuario/LocalidadeRisco.git
 
 cd relatorio-transacoes-suspeitas
 
