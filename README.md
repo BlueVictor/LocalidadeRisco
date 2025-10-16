@@ -30,7 +30,7 @@ Aplicativo interativo desenvolvido em **Python + Streamlit** para análise de tr
 
 ## 🖼️ Demonstração
 
-> <img width="2489" height="1325" alt="image" src="https://github.com/user-attachments/assets/44c888b6-cdf6-44c7-a413-a6dc00d11613" />
+> <img width="2489" height="1325" alt="image" src="https://media.discordapp.net/attachments/1369495592165834852/1428431572180271135/image.png?ex=68f27a11&is=68f12891&hm=705687bf0e48180fc1dc10e8b2aa2f98fe7b54ac3507c427d8e1086ed7a5b51a&=&format=webp&quality=lossless&width=1232&height=469" />
 
 ---
 
