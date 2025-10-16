@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Fundo geral */
+.stApp {
+    background: linear-gradient(135deg, #0a0f24, #0d1b2a, #1b263b);
+    font-family: 'Segoe UI', sans-serif;
+    color: #dfe6e9;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #4cc9f0;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+/* Texto geral */
+p, label, span, .stMarkdown {
+    color: #e0e0e0 !important;
+    line-height: 1.4em;
+}
+
+/* DataFrames */
+.stDataFrame {
+    border: 1px solid #1a2a40;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #0d1b2a;
+    color: #e0e0e0;
+    padding: 8px;
+}
+
+/* Inputs */
+.stTextInput, .stSelectbox, .stMultiSelect, .stFileUploader {
+    background-color: #1b263b !important;
+    color: #e0e0e0 !important;
+    border-radius: 10px;
+    padding: 6px 10px;
+    line-height: 1.3em;
+}
+
+/* Botões */
+div.stDownloadButton > button, .stButton > button {
+    background: linear-gradient(90deg, #003566, #0077b6);
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 0.6em 1.2em;
+    font-weight: bold;
+    transition: 0.3s;
+    line-height: 1.2em;
+}
+div.stDownloadButton > button:hover, .stButton > button:hover {
+    background: linear-gradient(90deg, #001845, #003566);
+    transform: scale(1.05);
+}
+
+/* Métricas */
+[data-testid="stMetricValue"] {
+    color: #4cc9f0;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+[data-testid="stMetricDelta"] {
+    font-size: 1.1em;
+    color: #e0e0e0;
+    line-height: 1.2em;
+}
+
+/* Abas */
+.stTabs [role="tablist"] {
+    gap: 12px;
+}
+.stTabs [role="tab"] {
+    background: #1b263b;
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: #4cc9f0;
+    font-weight: 600;
+    transition: 0.2s;
+    line-height: 1.3em;
+}
+.stTabs [role="tab"][aria-selected="true"] {
+    background: linear-gradient(90deg, #003566, #0077b6);
+    color: white;
+}
